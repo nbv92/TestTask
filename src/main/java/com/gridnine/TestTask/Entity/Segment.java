@@ -13,7 +13,7 @@ public class Segment {
     public String toString() {
         DateTimeFormatter segString =
                 DateTimeFormatter.ofPattern("yyyy-MM-dd'T'HH:mm");
-        return "Отправление " + dateDeparture.format(segString) + " ,Прибытие " + dateArrival.format(segString);
+        return "Отправление " + dateDeparture.format(segString) + ", Прибытие " + dateArrival.format(segString);
     }
 
     @Override
