@@ -1,5 +1,6 @@
 package com.gridnine.TestTask.Entity;
 
+import java.time.Duration;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -19,4 +20,5 @@ public class Flight {
         return segments.stream().map(Object::toString)
                 .collect(Collectors.joining(" "));
     }
+
 }
